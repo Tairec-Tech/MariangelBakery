@@ -21,7 +21,7 @@ body {
 }
 
 .logo {
-  height: 60px;
+  height: 60px; /* Puedes ajustar este valor o borrarlo si prefieres el estilo en línea */
 }
 
 .btn-marron {
@@ -41,26 +41,23 @@ body {
   padding: 60px 0;
 }
 
+/* CAMBIO IMPORTANTE: Estilos para los íconos DENTRO DEL FOOTER */
 .social-icons {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  justify-content: center; /* Centra los íconos */
+  gap: 20px; /* Espacio entre los íconos */
   font-size: 1.8rem;
-  z-index: 999;
-  transition: color 0.5s ease;
 }
 
 .social-icons i {
   cursor: pointer;
-  color: var(--icon-color, #5e412f);
+  color: white; /* Asegura el color blanco definido en el HTML */
   transition: 0.3s ease-in-out;
 }
 
 .social-icons i:hover {
-  color: #a77b5a;
+  color: #fef0c8; /* Cambia a un color crema al pasar el mouse */
+  transform: scale(1.1);
 }
 
 /* Tarjetas de productos */
